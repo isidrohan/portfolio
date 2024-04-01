@@ -1,0 +1,63 @@
+.project{
+    /* background-color: gray; */
+    font-family: "Urbanist", sans-serif;
+    width: 80%;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    & h2{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 44.1px;
+        letter-spacing: 5%;
+    }
+}
+.container-project{
+    background-color: rgba(12, 12, 12, 0.6);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+    padding: 2rem;
+    border-radius: 15px;
+}
+.box-project{
+    border-radius: 20px;
+    background-color: #f9f9f94e;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    & *{
+        color: #FFFFFF;
+    }
+    & h3{
+        margin: 0;
+    }
+    animation: ease-in 0.2ms normal direction fill-mode;
+}
+.box-project:hover{
+    box-shadow: 0 0px 30px #FFFFFF;
+    transition: all 0.2s ease-in-out;
+}
+.image-project{
+    padding: 1rem;
+    margin: 1rem;
+    padding-bottom: 0;
+    border-radius: 15px;
+    background-image: linear-gradient(to bottom,rgba(178, 190, 194, 0.42),
+    rgba(255, 255, 255, 0))
+
+}
+.content-project{
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+}

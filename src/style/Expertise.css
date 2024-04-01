@@ -1,0 +1,88 @@
+.expertise{
+    font-family: "Urbanist", sans-serif;
+    width: 80%;
+    margin-top: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    & h2{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 44.1px;
+        letter-spacing: 5%;
+    }
+}
+.container-expertise{
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-content: center;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    gap: 40px;
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 2rem;
+    border-radius: 15px;
+   
+}
+.content-box-expertise{
+    width: 77%;
+    margin: 0 auto;
+}
+.item-expertise{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 23px;
+    border-radius: 20px;
+}
+.item-expertise:hover{
+    background-image: linear-gradient(to right,rgba(178, 190, 194, 0.42),
+                                                    rgba(255, 255, 255, 0));
+}
+.icon-expertise{
+    padding: 2rem ;
+    font-size: 3rem;
+    color: #b336ff;
+    display: inline-block;
+}
+
+.content-expertise{
+    padding: 1rem;
+}
+
+.logo-box-expertise{
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    margin-top: 2rem;
+
+}
+.logo-item-expertise{
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & p{
+        color: #FFFFFF;
+        margin-left: 1rem;
+        font-weight: 700;
+    }
+}
+.logo-expertise{
+    padding: 1rem;
+    background-color: #f9f9f94e;
+    margin-left: 1rem;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

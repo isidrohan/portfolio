@@ -1,0 +1,45 @@
+.about{
+    font-family: "Urbanist", sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    & h2{
+        color: #FFFFFF;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 44.1px;
+        letter-spacing: 5%;
+    }
+}
+.container-about{
+    display: grid;
+    grid-template-columns: auto auto ;
+    align-content: center;
+    gap: 40px;
+    background-color: rgba(12, 12, 12, 0.6);
+    padding: 2rem;
+    border-radius: 15px;
+   
+}
+.item-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 23px;
+    border-radius: 20px;
+}
+.item-about:hover{
+    background-image: linear-gradient(to right,rgba(178, 190, 194, 0.42),
+                                                    rgba(255, 255, 255, 0));
+}
+.icon-about{
+    padding: 2rem ;
+    font-size: 3rem;
+    color: #b336ff;
+    display: inline-block;
+}
+
+.content-about{
+    padding: 1rem;
+}

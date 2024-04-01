@@ -1,0 +1,130 @@
+
+.box{
+    /* height: 100vh; */
+    height: fit-content;
+}
+
+.box-container{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10rem;
+}
+@media screen and (max-width: 923px) {
+    .box-container{
+        grid-template-columns: 1fr
+    }
+    
+}
+
+/* .box-container-item{
+    margin-top: 50px;
+    
+} */
+.item{
+    display: grid;
+    font-weight: 500;
+    margin-top: 7rem;
+    /* border: 2px solid red; */
+    & span{
+        text-align: end;
+    }
+    & h1{
+        font-size: 3.6rem;
+    }  
+    & p{
+        font-size: 18px;
+    } 
+}
+@media screen and (max-width: 671px){
+    .item{
+        & span{
+            text-align: start;
+        }
+    }
+    .bulb{
+        left: 10rem;
+    }
+}
+
+
+@media screen and (max-width: 1144px){
+    .content1::after{
+        content: "\a";
+        white-space: pre;
+    }
+}
+.name{
+    font-weight: 500;
+}
+.social-media{
+    display: flex;
+    /* align-items: end; */
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: right;
+    text-align: right;
+    & *{
+        margin-left: 8px;
+        margin-top: 5px;
+    }
+}
+.resume-btn{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+    border: none;
+    padding: 0.2rem 1.5rem;
+    color: var(--text-color);
+    background-color: var(--btn-bg-color);
+    /* box-shadow: 0-8px 26.2px #b336ff; */
+    box-shadow: 0 0px 15px var(--heading-color);
+    transition: all 0.2s ease-in-out;
+}
+.resume-btn:hover{
+    box-shadow: 0 0px 30px var(--heading-color);
+}
+.typewriter{
+    font-size: 3rem;
+    font-family: "Caveat", cursive;
+    font-weight: 200;
+    height: 60px;
+    /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa; */
+    text-shadow: 0 0 10px #ffffff70, 0 0 20px #ffffffe8, 0 0 42px ;
+}
+
+/* *****light****** */
+.light{
+    height: 0;
+}
+.bulb{
+    position: relative;
+    left: 26.5rem;
+    bottom: 32rem;  
+}
+@media screen and (max-width: 626px){
+    img.bulb {
+      left: 19rem;
+  }
+}
+@media screen and (max-width: 504px){
+    img.bulb {
+      left: 15rem;
+  }
+}
+
+.light{
+    & .bulb-mode{
+        position: relative;
+        left: 28.3rem;
+        bottom: 36rem;
+        font-size: 1.5rem;
+        font-family: "Caveat", cursive;
+        font-weight: lighter;
+    }
+}
