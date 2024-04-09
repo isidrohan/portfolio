@@ -123,12 +123,14 @@
   font-size: 2rem;
 }
 .icon-content{
+  font-size: 20px;
   margin-left: 3rem;
   letter-spacing: 2.5px;
   display: flex;
   align-items: center;
   justify-content: center;
   & a{
+    
     text-decoration: none;
     color: #bbb;
     letter-spacing: 2.5px;
@@ -255,5 +257,12 @@ hr {
 @media screen and (max-width: 410px) {
   .send-button {
     width: 99%;
+  }
+  .icon-content{
+    font-size: 0.9rem;
+  }
+  #email{
+    margin-right: 0;
+    padding-right: 0;
   }
 }

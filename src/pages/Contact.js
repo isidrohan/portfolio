@@ -112,7 +112,7 @@ export const Contact = (props) => {
                   </div>
                 </span>
               </li>
-              <li className="list-item">
+              <li id="email" className="list-item">
                 <span className="contact-text">
                   <div className="icon">
                     <IoMdMail />
