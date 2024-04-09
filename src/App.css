@@ -10,7 +10,9 @@
     --heading-color: #b336ff;
     --btn-bg-color: #000000;
     --bg-gradient-first-color: #000000;
-    --bg-gradient-second-color: #000000c2;   
+    --bg-gradient-second-color: #000000f5;
+    --bg-gradient-third-color: #323232d0;  
+    --footer-bg-color: #00000029;
 }
 .light-theme{
     --nav-bg-color: #cacaca82;
@@ -18,7 +20,9 @@
     --heading-color: #b336ff;
     --btn-bg-color: #FFFFFF;
     --bg-gradient-first-color: #D9D9D9;
-    --bg-gradient-second-color: #000000c2;   
+    --bg-gradient-second-color: #4545459a;   
+    --bg-gradient-third-color: #000000b6;
+    --footer-bg-color: #FFFFFF;
 
 
 
@@ -26,7 +30,7 @@
 }
 .main-box{
     max-width: 1600px;
-    background-image: linear-gradient(to bottom, var(--bg-gradient-first-color) ,var(--bg-gradient-second-color));
+    background-image: linear-gradient(to bottom, var(--bg-gradient-first-color) ,var(--bg-gradient-second-color),var(--bg-gradient-third-color));
     
     /* height: ; */
 }

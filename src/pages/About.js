@@ -3,10 +3,10 @@ import { PiCursorClickFill } from "react-icons/pi";
 import { FaGraduationCap } from "react-icons/fa6";
 import { GiSchoolBag } from "react-icons/gi";
 import { FaSchoolFlag } from "react-icons/fa6";
-export const About = () => {
+export const About = (props) => {
   return (
     <>
-      <section className="about">
+      <section ref={props.nameforRef} className="about">
         <h2>About</h2>
         <div className="container-about">
           <div className="item-about">
@@ -15,7 +15,7 @@ export const About = () => {
             </div>
             <div className="content-about">
               <h3>POST GRADUATION</h3>
-              <p>i am a student study in dr bc roy engineering college </p>
+              <p> ------- </p>
             </div>
           </div>
           <div className="item-about">
@@ -24,7 +24,7 @@ export const About = () => {
             </div>
             <div className="content-about">
               <h3>GRADUATION</h3>
-              <p>i am a student study in dr bc roy engineering college </p>
+              <p>currently i am pursuing BCA from Dr. B.C. Roy engineering college, Durgapur </p>
             </div>
           </div>
           <div className="item-about">
@@ -33,7 +33,7 @@ export const About = () => {
             </div>
             <div className="content-about">
               <h3>HGHER SECONDARY SCHOOL</h3>
-              <p>i am a student study in dr bc roy engineering college </p>
+              <p>I have completed my +2 in 2020 form R.D & D.J. college, Bihar </p>
             </div>
           </div>
           <div className="item-about">
@@ -42,7 +42,7 @@ export const About = () => {
             </div>
             <div className="content-about">
               <h3>SECONDARY SCHOOL</h3>
-              <p>i am a student study in dr bc roy engineering college </p>
+              <p>I have completed my 10th form Saraswati Vidya Mandir, Bihar </p>
             </div>
           </div>
         </div>

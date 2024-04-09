@@ -1,0 +1,9 @@
+.footer-cotainer{
+    height: 50px;
+    background-color: var(--footer-bg-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}

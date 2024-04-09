@@ -12,10 +12,10 @@ import mongo from "../image/mongo.png";
 import figma from "../image/figma.png";
 import dsalogo from "../image/dsa-logo.png";
 
-export const Expertise = () => {
+export const Expertise = (props) => {
   return (
     <>
-      <section className="expertise">
+      <section ref={props.nameforRef} className="expertise">
         <h2>Expertise</h2>
         <div className="container-expertise">
           <div className="logo-box-expertise">
@@ -68,8 +68,8 @@ export const Expertise = () => {
                 <FaGraduationCap />
               </div>
               <div className="content-about">
-                <h3>POST GRADUATION</h3>
-                <p>i am a student study in dr bc roy engineering college </p>
+                <h3>FULLSTACK DEVELOPER</h3>
+                <p>I’m a full stack developer with experience in building responsive and optimized site </p>
               </div>
             </div>
             <div className="item-expertise">
@@ -77,8 +77,8 @@ export const Expertise = () => {
                 <FaGraduationCap />
               </div>
               <div className="content-about">
-                <h3>POST GRADUATION</h3>
-                <p>i am a student study in dr bc roy engineering college </p>
+                <h3>DATA STRUCTURE AND ALGO</h3>
+                <p>Advancements in DSA through self-study and practical application.</p>
               </div>
             </div>
             <div className="item-expertise">
@@ -86,8 +86,8 @@ export const Expertise = () => {
                 <FaGraduationCap />
               </div>
               <div className="content-about">
-                <h3>POST GRADUATION</h3>
-                <p>i am a student study in dr bc roy engineering college </p>
+                <h3>UI DESIGNER</h3>
+                <p>I have designed multiple landing pages using figma. </p>
               </div>
             </div>
           </div>

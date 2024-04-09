@@ -4,11 +4,13 @@
     margin-left: auto;
     margin-right: auto;
     & h2{
-        color: #FFFFFF;
-        font-weight: 700;
-        font-size: 35px;
-        line-height: 44.1px;
-        letter-spacing: 5%;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        text-align: start;
+        font: 500 40px "Urbanist", sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 6px;
     }
 }
 .container-about{
@@ -21,6 +23,11 @@
     border-radius: 15px;
    
 }
+@media screen and (max-width: 1109px) {
+    .container-about{
+        grid-template-columns: auto;
+    }
+}
 .item-about{
     display: flex;
     align-items: center;
@@ -28,6 +35,11 @@
     color: #FFFFFF;
     font-size: 23px;
     border-radius: 20px;
+}
+@media screen and (max-width: 482px) {
+    .item-about{
+        flex-direction: column;
+    }   
 }
 .item-about:hover{
     background-image: linear-gradient(to right,rgba(178, 190, 194, 0.42),
@@ -42,4 +54,39 @@
 
 .content-about{
     padding: 1rem;
+    & p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .content-about{
+        & h3{
+            font-size: 1.5rem;
+        }
+        & p{
+            font-size: 0.9rem !important;
+        }
+    }
+    .about{
+        & h2{
+            text-align: center;
+            font-size: 35px;
+        }
+    }
+}
+@media screen and (max-width: 458px) {
+    .content-about{
+        & h3{
+            text-align: center;
+            /* font-size: 2rem; */
+        }
+        & p{
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+    .icon-about{
+        padding: 2rem 2rem 0 2rem;
+    }
+    
 }

@@ -1,10 +1,8 @@
-
-.box{
-    /* height: 100vh; */
+.box {
     height: fit-content;
 }
 
-.box-container{
+.box-container {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     color: var(--text-color);
@@ -15,66 +13,68 @@
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 10rem;
 }
-@media screen and (max-width: 923px) {
-    .box-container{
-        grid-template-columns: 1fr
-    }
-    
-}
 
-/* .box-container-item{
-    margin-top: 50px;
-    
-} */
-.item{
+.item {
     display: grid;
     font-weight: 500;
     margin-top: 7rem;
-    /* border: 2px solid red; */
-    & span{
+    & span {
         text-align: end;
     }
-    & h1{
+    & h1 {
         font-size: 3.6rem;
-    }  
-    & p{
+    }
+    & p {
         font-size: 18px;
-    } 
-}
-@media screen and (max-width: 671px){
-    .item{
-        & span{
-            text-align: start;
-        }
-    }
-    .bulb{
-        left: 10rem;
     }
 }
 
+.profile-overlay,
+light-theme {
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    background-color: var(--heading-color);
+    box-shadow: 0 0px 35px var(--heading-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-@media screen and (max-width: 1144px){
-    .content1::after{
-        content: "\a";
-        white-space: pre;
+    & img {
+        border-radius: 50%;
+        object-fit: cover;
     }
 }
-.name{
+
+.profile {
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & img {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+}
+
+.name {
     font-weight: 500;
 }
-.social-media{
+
+.social-media {
     display: flex;
-    /* align-items: end; */
     align-items: center;
-    /* justify-content: center; */
     justify-content: right;
     text-align: right;
-    & *{
+    & * {
         margin-left: 8px;
         margin-top: 5px;
     }
 }
-.resume-btn{
+
+.resume-btn {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
     border-radius: 20px;
@@ -86,45 +86,113 @@
     box-shadow: 0 0px 15px var(--heading-color);
     transition: all 0.2s ease-in-out;
 }
-.resume-btn:hover{
+
+.resume-btn:hover {
     box-shadow: 0 0px 30px var(--heading-color);
 }
-.typewriter{
+
+.typewriter {
     font-size: 3rem;
     font-family: "Caveat", cursive;
     font-weight: 200;
     height: 60px;
     /* text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa; */
-    text-shadow: 0 0 10px #ffffff70, 0 0 20px #ffffffe8, 0 0 42px ;
+    text-shadow: 0 0 10px #ffffff70, 0 0 20px #ffffffe8, 0 0 42px;
 }
 
 /* *****light****** */
-.light{
+.light {
     height: 0;
 }
-.bulb{
+
+.bulb {
+    height: 270px;
+    width: 153px;
     position: relative;
-    left: 26.5rem;
-    bottom: 32rem;  
-}
-@media screen and (max-width: 626px){
-    img.bulb {
-      left: 19rem;
-  }
-}
-@media screen and (max-width: 504px){
-    img.bulb {
-      left: 15rem;
-  }
+    left: 21.5rem;
+   
+    bottom: 32.5rem;
 }
 
-.light{
-    & .bulb-mode{
+
+.light {
+    & .bulb-mode {
         position: relative;
         left: 28.3rem;
         bottom: 36rem;
         font-size: 1.5rem;
         font-family: "Caveat", cursive;
         font-weight: lighter;
+    }
+}
+
+@media screen and (max-width: 923px) {
+    .box-container {
+        grid-template-columns: 1fr
+    }
+
+}
+
+@media screen and (max-width: 671px) {
+    .item {
+        & span {
+            text-align: start;
+            padding-right: 14px;
+            padding-left: 14px;
+        }
+    }
+
+    .bulb {
+        left: 10rem;
+    }
+}
+
+@media screen and (max-width: 1144px) {
+    .content1::after {
+        content: "\a";
+        white-space: pre;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    img.bulb {
+        left: 19rem;
+    }
+}
+
+@media screen and (max-width: 504px) {
+    img.bulb {
+        left: 15rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    img.bulb {
+        left: 10rem;
+    }
+}
+@media screen and (max-width: 392px) {
+    img.bulb{
+        left: 11rem;
+    }
+    
+}
+
+@media screen and (max-width: 488px) {
+    .profile-overlay {
+        width: 310px;
+        height: 310px;
+        & img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+    .profile{
+        width: 310px;
+        height: 310px;
+        & img{
+            width: 300px;
+            height: 300px;
+        }
     }
 }

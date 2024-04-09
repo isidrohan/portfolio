@@ -14,6 +14,7 @@
    
     padding: 0.5rem 5rem;
     position: sticky;
+    width: 100%;
     font-size: 1.2rem;
 
     & .logo{
@@ -45,7 +46,10 @@ ul{
     font-size: 1.5rem;
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-
+}
+.list-item:hover{
+  color: var(--heading-color);
+  cursor: pointer;
 }
 @media screen and (max-width: 1105px) {
   .list-item{
@@ -79,7 +83,13 @@ ul{
     height: 40px;
     display: none;
 }
-
+@media screen and (max-width: 420px) {
+  .menu-items{
+    width: 300px;
+    height: 80vh;
+  }
+  
+}
 @media screen and (max-width: 830px) {
     .container {
       flex-direction: column;
@@ -110,12 +120,13 @@ ul{
       align-items: center;
       gap: 13px;
       border-radius: 10px;
-      background: rgb(25, 55, 109);
+      /* background: rgb(25, 55, 109);
       background: linear-gradient(
         0deg,
         rgba(25, 55, 109, 0.2) 0%,
         rgba(25, 55, 109, 1) 100%
-      );
+      ); */
+      background-color: #32323281;
       padding: 24px 33px;
       box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
@@ -125,3 +136,4 @@ ul{
       z-index: 1;
     }
   }
+ 
