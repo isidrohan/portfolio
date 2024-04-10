@@ -18,12 +18,15 @@
     display: grid;
     font-weight: 500;
     margin-top: 7rem;
+
     & span {
         text-align: end;
     }
+
     & h1 {
         font-size: 3.6rem;
     }
+
     & p {
         font-size: 18px;
     }
@@ -53,6 +56,7 @@ light-theme {
     display: flex;
     align-items: center;
     justify-content: center;
+
     & img {
         border-radius: 50%;
         object-fit: cover;
@@ -68,6 +72,7 @@ light-theme {
     align-items: center;
     justify-content: right;
     text-align: right;
+
     & * {
         margin-left: 8px;
         margin-top: 5px;
@@ -110,7 +115,7 @@ light-theme {
     width: 153px;
     position: relative;
     left: 21.5rem;
-   
+
     bottom: 32.5rem;
 }
 
@@ -163,36 +168,68 @@ light-theme {
 @media screen and (max-width: 504px) {
     img.bulb {
         left: 15rem;
+        bottom: 35rem;
     }
 }
 
-@media screen and (max-width: 420px) {
-    img.bulb {
-        left: 10rem;
-    }
-}
 @media screen and (max-width: 392px) {
-    img.bulb{
+    img.bulb {
         left: 11rem;
     }
-    
+}
+
+@media screen and (max-width: 1089px) {
+    img.bulb {
+        /* left: 11rem; */
+        bottom: 37rem;
+    }
 }
 
 @media screen and (max-width: 488px) {
     .profile-overlay {
         width: 310px;
         height: 310px;
+
         & img {
             width: 300px;
             height: 300px;
         }
     }
-    .profile{
+
+    .profile {
         width: 310px;
         height: 310px;
-        & img{
+
+        & img {
             width: 300px;
             height: 300px;
+        }
+    }
+
+    img.bulb {
+        left: 9rem;
+        bottom: 32rem;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .profile-overlay {
+        width: 280px;
+        height: 280px;
+
+        & img {
+            width: 270px;
+            height: 270px;
+        }
+    }
+
+    .profile {
+        width: 280px;
+        height: 280px;
+
+        & img {
+            width: 270px;
+            height: 270px;
         }
     }
 }
