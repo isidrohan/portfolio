@@ -1,8 +1,8 @@
 import "../style/Expertise.css";
 import { PiCursorClickFill } from "react-icons/pi";
-import { FaGraduationCap } from "react-icons/fa6";
-import { GiSchoolBag } from "react-icons/gi";
-import { FaSchoolFlag } from "react-icons/fa6";
+import { SiAlwaysdata } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
+
 
 import html from "../image/html.png";
 import css from "../image/css.png";
@@ -65,29 +65,29 @@ export const Expertise = (props) => {
           <div className="content-box-expertise">
             <div className="item-expertise">
               <div className="icon-expertise">
-                <FaGraduationCap />
+                <PiCursorClickFill />
               </div>
               <div className="content-about">
                 <h3>FULLSTACK DEVELOPER</h3>
-                <p>I’m a full stack developer with experience in building responsive and optimized site </p>
+                <p>I'm a full-stack developer with experience in building responsive and optimized sites.</p>
               </div>
             </div>
             <div className="item-expertise">
               <div className="icon-expertise">
-                <FaGraduationCap />
+                <SiAlwaysdata />
               </div>
               <div className="content-about">
                 <h3>DATA STRUCTURE AND ALGO</h3>
-                <p>Advancements in DSA through self-study and practical application.</p>
+                <p>Advancements in DSA achieved through self-study and practical application.</p>
               </div>
             </div>
             <div className="item-expertise">
               <div className="icon-expertise">
-                <FaGraduationCap />
+                <CgWebsite />
               </div>
               <div className="content-about">
                 <h3>UI DESIGNER</h3>
-                <p>I have designed multiple landing pages using figma. </p>
+                <p>Using Figma, I've crafted landing pages, each uniquely designed to captivate and engage users. </p>
               </div>
             </div>
           </div>

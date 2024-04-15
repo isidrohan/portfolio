@@ -141,9 +141,19 @@ light-theme {
 @media screen and (max-width: 671px) {
     .item {
         & span {
+            /* font-size: 3.5rem; */
             text-align: start;
             padding-right: 14px;
             padding-left: 14px;
+        }
+        & p{
+            padding: 0 0 0 14px;
+            font-size: 0.9rem;
+        }
+    }
+    .name{
+        & span{
+            font-size: 3.4rem;
         }
     }
 

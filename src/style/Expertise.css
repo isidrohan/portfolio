@@ -87,6 +87,11 @@
     align-items: center;
     
 }
+.content-about{
+    & p{
+        letter-spacing: 1px;
+    }
+}
 @media screen and (max-width: 420px){
     .logo-expertise{
         width: 90px;

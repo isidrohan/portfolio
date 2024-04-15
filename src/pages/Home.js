@@ -5,14 +5,13 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa6";
-// import sidimage from "../image/sid.jpeg";
 import siddark from "../image/sid2.jpg";
 import sidlight from "../image/sidlight.jpg";
 import bulb2 from "../image/bulb2.png";
 import bulbglow from "../image/bulb glow.png";
 import { ReactTyped } from "react-typed";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../image/RESUME S.pdf";
+import resume from "../image/resume siddharth.pdf";
 export const Home = (props) => {
   const [theme, setTheme] = useState("dark-theme");
   const toggleTheme = () =>{
@@ -65,7 +64,7 @@ export const Home = (props) => {
               </div>
 
               <h1 className="name">
-                <span className="content1">I AM</span> <span style={{ color: "#b336ff" }}>SIDDHARTH ROHAN</span>{" "}
+                <span className="content1">I AM</span> <span style={{ color: "#b336ff" }}>SIDDHARTH </span><span style={{ color: "#b336ff" }}>ROHAN</span>{" "}
               </h1>
               <p>
               As a side hustler, I thrive on challenges and enjoy delving into various projects that stretch my skills. Whether it's building responsive websites, developing interactive web applications, or tackling complex coding puzzles, I'm always eager to push boundaries.

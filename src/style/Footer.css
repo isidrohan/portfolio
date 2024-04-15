@@ -7,3 +7,11 @@
     justify-content: center;
     padding: 1rem;
 }
+@media screen and (max-width: 420px) {
+    .footer-cotainer{
+        & p{
+            font-size: 0.9rem;
+        }
+    }
+    
+}

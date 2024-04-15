@@ -24,7 +24,7 @@ export const About = (props) => {
             </div>
             <div className="content-about">
               <h3>GRADUATION</h3>
-              <p>currently i am pursuing BCA from Dr. B.C. Roy engineering college, Durgapur </p>
+              <p>Currently, I am pursuing BCA at Dr. B.C. Roy Engineering College, Durgapur. </p>
             </div>
           </div>
           <div className="item-about">
@@ -33,7 +33,7 @@ export const About = (props) => {
             </div>
             <div className="content-about">
               <h3>HGHER SECONDARY SCHOOL</h3>
-              <p>I have completed my +2 in 2020 form R.D & D.J. college, Bihar </p>
+              <p>I completed my +2 in 2020 from R.D & D.J. College in Bihar. </p>
             </div>
           </div>
           <div className="item-about">
@@ -42,7 +42,7 @@ export const About = (props) => {
             </div>
             <div className="content-about">
               <h3>SECONDARY SCHOOL</h3>
-              <p>I have completed my 10th form Saraswati Vidya Mandir, Bihar </p>
+              <p>I completed my matriculation from Saraswati Vidya Mandir in Bihar. </p>
             </div>
           </div>
         </div>
