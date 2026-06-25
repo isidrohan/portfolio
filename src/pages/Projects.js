@@ -22,7 +22,6 @@ export const Projects = (props) => {
         breakpoint: 1097,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
           slidesToScroll: 1,
           // infinite: true,
           // dots: true,
@@ -60,7 +59,7 @@ export const Projects = (props) => {
               <p>
               An AI-powered MERN stack web application that helps users track meals, manage diet plans, and maintain healthy eating habits.
               </p>
-            <button className="btn-project"><a href="https://ai-diet-tracker-two.vercel.app/" target="_blank"> Preview</a></button>
+            <button className="btn-project"><a href="https://ai-diet-tracker-two.vercel.app/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>  
           </div>
 
@@ -73,7 +72,7 @@ export const Projects = (props) => {
               <p>
               This is a full-fledged MERN stack web application where users can create their account and add notes. Please preview to know more.
               </p>
-            <button className="btn-project"><a href="https://notebook-roan.vercel.app/" target="_blank"> Preview</a></button>
+            <button className="btn-project"><a href="https://notebook-roan.vercel.app/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>  
           </div>
 
@@ -86,7 +85,7 @@ export const Projects = (props) => {
               <p>
               This is a MERN stack web app featuring an admin panel for database management through the UI. Please preview to know more.
               </p>
-            <button className="btn-project"><a href="https://geekshub-psi.vercel.app/" target="_blank"> Preview</a></button>
+            <button className="btn-project"><a href="https://geekshub-psi.vercel.app/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>
           </div>
 
@@ -99,7 +98,7 @@ export const Projects = (props) => {
               <p>
               This React project utilizes the OpenWeatherMap API to display weather information for any city. Please preview to know more.
               </p>
-            <button className="btn-project"><a href="https://check-da-weather.netlify.app/" target="_blank"> Preview</a></button>
+            <button className="btn-project"><a href="https://check-da-weather.netlify.app/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>
           </div>
 
@@ -112,7 +111,7 @@ export const Projects = (props) => {
               <p>
               This React project utilizes local storage to manage todos, providing features for adding or deleting tasks. Please preview to know more.
               </p>
-            <button className="btn-project"><a href="https://toddowev.netlify.app/" target="_blank"> Preview</a></button>
+            <button className="btn-project"><a href="https://toddowev.netlify.app/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>
           </div>
 
@@ -125,7 +124,7 @@ export const Projects = (props) => {
               <p>
               This is a landing page. Please preview to know more.
               </p>
-            <button className="btn-project"> <a href="https://isidrohan.github.io/Electronic-shop/" target="_blank"> Preview</a></button>
+            <button className="btn-project"> <a href="https://isidrohan.github.io/Electronic-shop/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>
           </div>
 
@@ -138,7 +137,7 @@ export const Projects = (props) => {
               <p>
                 This is a text converter web application, created using bootstrap and JS. Please preview to know more.
               </p>
-            <button className="btn-project"> <a href="https://isidrohan.github.io/textutils/" target="_blank"> Preview</a></button>
+            <button className="btn-project"> <a href="https://isidrohan.github.io/textutils/" target="_blank" rel="noopener noreferrer"> Preview</a></button>
             </div>
           </div>
 

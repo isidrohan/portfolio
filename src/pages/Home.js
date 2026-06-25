@@ -11,7 +11,7 @@ import bulb2 from "../image/bulb2.png";
 import bulbglow from "../image/bulb glow.png";
 import { ReactTyped } from "react-typed";
 import { TypeAnimation } from "react-type-animation";
-import resume from "../image/resume siddharth.pdf";
+import resume from "../image/resume_siddharth.pdf";
 export const Home = (props) => {
   const [theme, setTheme] = useState("dark-theme");
   const toggleTheme = () =>{
