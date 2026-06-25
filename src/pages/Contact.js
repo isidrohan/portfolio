@@ -106,7 +106,7 @@ export const Contact = (props) => {
                     <IoCall />
                   </div>
                   <div className="icon-content">
-                    <a href="8676090166" title="Give me a call">
+                    <a href="tel:8676090166" title="Give me a call">
                       8676090166
                     </a>
                   </div>
@@ -118,7 +118,7 @@ export const Contact = (props) => {
                     <IoMdMail />
                   </div>
                   <div className="icon-content">
-                    <a href="mailto:#" title="Send me an email">
+                    <a href="mailto:sidrohanme2@gmail.com" title="Send me an email">
                       sidrohanme2@gmail.com
                     </a>
                   </div>
@@ -129,17 +129,17 @@ export const Contact = (props) => {
 
             <ul className="social-media-list">
               <li>
-                <a href="https://github.com/isidrohan" target="_blank" className="contact-icon">
+                <a href="https://github.com/isidrohan" target="_blank" rel="noopener noreferrer" className="contact-icon">
                   <FaGithub />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/siddharth-rohan-279385239/" target="_blank" className="contact-icon">
+                <a href="https://www.linkedin.com/in/siddharth-rohan-279385239/" target="_blank" rel="noopener noreferrer" className="contact-icon">
                   <FaLinkedin />
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/isidd_rohan/" target="_blank" className="contact-icon">
+                <a href="https://www.instagram.com/isidd_rohan/" target="_blank" rel="noopener noreferrer" className="contact-icon">
                   <AiFillInstagram />
                 </a>
               </li>

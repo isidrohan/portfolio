@@ -6,10 +6,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaDownload } from "react-icons/fa6";
 import siddark from "../image/sid2.jpg";
-import sidlight from "../image/sidlight.jpg";
 import bulb2 from "../image/bulb2.png";
 import bulbglow from "../image/bulb glow.png";
-import { ReactTyped } from "react-typed";
 import { TypeAnimation } from "react-type-animation";
 import resume from "../image/resume_siddharth.pdf";
 export const Home = (props) => {
@@ -79,6 +77,7 @@ export const Home = (props) => {
                 <Link 
                   to="https://www.linkedin.com/in/siddharth-rohan-279385239/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <AiFillLinkedin 
                     size={30}
@@ -86,7 +85,7 @@ export const Home = (props) => {
                   ></AiFillLinkedin>
                 </Link>
 
-                <Link to="https://github.com/isidrohan"  target="_blank">
+                <Link to="https://github.com/isidrohan"  target="_blank" rel="noopener noreferrer">
                   <AiFillGithub 
                     size={30}
                     style={{ color: "#ffffff" }}
@@ -96,6 +95,7 @@ export const Home = (props) => {
                 <Link 
                   to="https://www.instagram.com/isidd_rohan/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <AiOutlineInstagram 
                     size={30}

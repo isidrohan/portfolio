@@ -1,5 +1,4 @@
 import "../style/About.css";
-import { PiCursorClickFill } from "react-icons/pi";
 import { FaGraduationCap } from "react-icons/fa6";
 import { GiSchoolBag } from "react-icons/gi";
 import { FaSchoolFlag } from "react-icons/fa6";

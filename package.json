@@ -42,5 +42,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "browserslist": "^4.28.4",
+    "caniuse-lite": "^1.0.30001799"
   }
 }
