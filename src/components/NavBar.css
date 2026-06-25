@@ -4,6 +4,17 @@
  
 }
 
+.logo-item,
+.list-item {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: none;
+}
+
 .container{
     max-width: 1600px;;
     display: flex;

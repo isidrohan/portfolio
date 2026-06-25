@@ -105,7 +105,7 @@
   display: flex;
   flex-direction: column;
   list-style-type: none;
-  align-items: start;
+  align-items: flex-start;
   margin-bottom: 4rem;
   padding: 0;
 }

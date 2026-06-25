@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "browserslist": "^4.28.4",
     "caniuse-lite": "^1.0.30001799"
   }
