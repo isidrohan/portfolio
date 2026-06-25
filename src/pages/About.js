@@ -11,11 +11,14 @@ export const About = (props) => {
         <div className="container-about">
           <div className="item-about">
             <div className="icon-about">
-                <FaGraduationCap />
+              <FaGraduationCap />
             </div>
             <div className="content-about">
               <h3>POST GRADUATION</h3>
-              <p> ------- </p>
+              <p>
+                Currently, I am pursuing my MCA at Vellore Institute of
+                Technology.
+              </p>
             </div>
           </div>
           <div className="item-about">
@@ -24,7 +27,10 @@ export const About = (props) => {
             </div>
             <div className="content-about">
               <h3>GRADUATION</h3>
-              <p>Currently, I am pursuing BCA at Dr. B.C. Roy Engineering College, Durgapur. </p>
+              <p>
+                I have completed my BCA from Dr. B.C. Roy Engineering College,
+                Durgapur.
+              </p>
             </div>
           </div>
           <div className="item-about">
@@ -32,8 +38,11 @@ export const About = (props) => {
               <FaSchoolFlag />
             </div>
             <div className="content-about">
-              <h3>HGHER SECONDARY SCHOOL</h3>
-              <p>I completed my +2 in 2020 from R.D & D.J. College in Bihar. </p>
+              <h3>HIGHER SECONDARY SCHOOL</h3>
+              <p>
+                I completed my Higher Secondary education in 2020 from R.D.
+                &amp; D.J. College, Bihar.
+              </p>
             </div>
           </div>
           <div className="item-about">
@@ -42,7 +51,10 @@ export const About = (props) => {
             </div>
             <div className="content-about">
               <h3>SECONDARY SCHOOL</h3>
-              <p>I completed my matriculation from Saraswati Vidya Mandir in Bihar. </p>
+              <p>
+                I completed my Secondary School education from Saraswati Vidya
+                Mandir, Bihar.
+              </p>
             </div>
           </div>
         </div>

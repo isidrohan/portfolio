@@ -115,6 +115,7 @@ light-theme {
     width: 153px;
     position: relative;
     left: 21.5rem;
+    cursor: pointer;
 
     bottom: 32.5rem;
 }

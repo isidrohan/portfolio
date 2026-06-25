@@ -1,4 +1,5 @@
 import "../style/Project.css";
+import dietTracker from "../image/ai-diet-tracker.png"
 import notebook from "../image/notebook-icon.png"
 import geekshub from "../image/geekshub-icon.png"
 import weather from "../image/weather-icon.png"
@@ -49,6 +50,19 @@ export const Projects = (props) => {
       <h2>Projects</h2>
       <div className="container-project">
         <Slider {...settings}>
+
+          <div className="box-project">
+            <div className="image-project">
+              <img src={dietTracker} alt="project" height="250" />
+            </div>
+            <div className="content-project">
+              <h3>DIET TRACKER</h3>
+              <p>
+              An AI-powered MERN stack web application that helps users track meals, manage diet plans, and maintain healthy eating habits.
+              </p>
+            <button className="btn-project"><a href="https://ai-diet-tracker-two.vercel.app/" target="_blank"> Preview</a></button>
+            </div>  
+          </div>
 
           <div className="box-project">
             <div className="image-project">

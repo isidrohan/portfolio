@@ -1,8 +1,10 @@
 import '../style/Footer.css'
-export const Footer = ()=>{
+
+export const Footer = () => {
+    const year = new Date().getFullYear();
     return (
         <section className="footer-cotainer">
-            <p>Copyright © 2024 siddharth rohan </p>
+            <p>Copyright © {year} siddharth rohan</p>
         </section>
     )
 }

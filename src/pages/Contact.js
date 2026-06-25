@@ -19,8 +19,8 @@ export const Contact = (props) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_4921lly', 'template_r4ws43t', form.current, {
-        publicKey: 'WcwbEIQog8OggLzfl',
+      .sendForm('service_1etqzwk', 'template_hby2rdk', form.current, {
+        publicKey: 'SOmQhlRiaCUXhS0i4',
       })
       .then(
         () => {
@@ -97,7 +97,7 @@ export const Contact = (props) => {
                   <div className="icon">
                     <FaLocationDot />
                   </div>
-                  <div className="icon-content">Durgapur, West Bengal</div>
+                  <div className="icon-content">Munger, Bihar</div>
                 </span>
               </li>
               <li className="list-item">
